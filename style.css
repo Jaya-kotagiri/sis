@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #ffdfd4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .card {
+    margin: 10% auto;
+    padding: 20px;
+    border: 2px solid #ff6384;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6384;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #ff2d55;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #surprise img {
+    margin-top: 10px;
+    width: 200px;
+    height: auto;
+  }
+
+  .video-container {
+    video {
+    width: 500px; /* Set the width */
+    height: auto; /* Keep proportions */
+    border-radius: 10px; /* Optional: Rounded corners */
+    display: block;
+    margin: 0 auto; /* Center the video */
+  }
+  }
+  
